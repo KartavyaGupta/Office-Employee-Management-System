@@ -10,20 +10,7 @@
 
 <body>
   <div class="container">
-    <p class="text-center border border-dark mt-3 text-monospace h3 p-3">Filter Employee Details</p>
-    <hr>
-
-    <form action="/filter_emp" method="post">
-      {% csrf_token %}
-      <label for="name"> <span class="text-monospace ">Employee First/Last Name</span></label><br>
-      <input type="text" id="name" name="name" value="{{ name }}" ><br>
-      <label for="dept"><span class="text-monospace">Department</span></label><br>
-      <input type="text" id="dept" name="dept" value="{{ dept }}"><br>
-      <label for="role"><span class="text-monospace">Role</span></label><br>
-      <input type="text" id="role" name="role" value="{{ role }}"><br>
-      <hr>
-      <button type="submit" class="btn btn-dark">Submit</button>
-    </form>
+    <p class="text-center border border-dark mt-3 text-monospace h3 p-3">Employee Removal Failed</p>
 
 
   </div>
